@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+
+inhibit_all_warnings!
+
+target 'BYGeneralOC' do
+    use_frameworks!
+
+    pod 'AFNetworking', '~> 4.0'
+
+end
